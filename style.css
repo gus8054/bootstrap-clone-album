@@ -1,0 +1,140 @@
+@import "reset.css";
+
+header {
+  background-color: #23242c;
+  display: flex;
+  padding: 0px 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  line-height: 2.5;
+}
+.logo i {
+  font-weight: 900;
+}
+.header_btn {
+  font-size: 2rem;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #f8f8f886;
+  border: 1px solid currentColor;
+  border-radius: 10px;
+}
+.header_btn:hover {
+  cursor: pointer;
+}
+.first_section {
+  height: 450px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_section .container {
+  width: 45%;
+  line-height: 2;
+}
+.first_section h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+.first_section p {
+  font-size: 1.2rem;
+  text-align: center;
+  opacity: 0.5;
+}
+.first_section .buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+.first_section button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.2rem;
+  color: white;
+}
+.main_btn {
+  background-color: #1f73f0;
+}
+.secondary_btn {
+  background-color: #718292;
+}
+.second_section {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 150px;
+  gap: 20px;
+}
+.card {
+  flex: 300px;
+  max-width: 500px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 2px 5px #7c8484;
+  border-radius: 10px;
+}
+.card_img {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #545b5c;
+  background-size: cover;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card_content {
+  padding: 20px;
+  line-height: 1.5;
+}
+.card_extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.second_section button {
+  background-color: transparent;
+  padding: 5px 10px;
+  color: #535b5c;
+  border: 1px solid #535b5c;
+  width: 3rem;
+  transition: all 0.2s ease-in-out;
+}
+.second_section .view_btn {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.second_section .edit_btn {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: none;
+}
+.second_section .view_btn:hover,
+.second_section .edit_btn:hover {
+  color: white;
+  background-color: #535b5c;
+}
+.card_time {
+  color: #535b5c;
+}
+footer {
+  display: flex;
+  padding: 50px 150px;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 2;
+}
+footer p {
+  width: 50%;
+  color: #7c8484;
+}
