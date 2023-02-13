@@ -74,7 +74,7 @@ header {
   gap: 20px;
 }
 .card {
-  flex: 300px;
+  flex: 400px;
   max-width: 500px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
